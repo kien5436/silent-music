@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Silent Music</string>
+    <string name="name">Full name</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email address</string>
+    <string name="dob">DoB</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="btnGo">Go</string>
+    <string name="register">Register</string>
+    <string name="forgot">Forgot password?</string>
+    <string name="requiredName">Tell me your name</string>
+    <string name="requiredEmail">Please provide your email</string>
+    <string name="requiredPassword">Please provide a password</string>
+    <string name="requiredPasswordLength">Please provide a password longer six characters</string>
+    <string name="requiredDoB">Please provide your birthday</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="success">Succeeded!</string>
+    <string name="notify_thanks">Thank you for register</string>
+    <string name="invalid_account">This account does not exist!</string>
+</resources>
