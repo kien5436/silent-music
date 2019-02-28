@@ -1,4 +1,4 @@
-package phamkien.login;
+package phamkien.silentMusic;
 
 import org.junit.Test;
 

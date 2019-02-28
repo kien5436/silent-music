@@ -5,23 +5,27 @@
               android:orientation="vertical">
 
     <TextView
-        android:id="@+id/tvSong"
+        android:id="@+id/tvSongName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:ellipsize="end"
         android:paddingLeft="10dp"
-        android:paddingRight="10dp"
         android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:singleLine="true"
         android:textColor="@color/light"
         android:textSize="20sp"/>
 
     <TextView
-        android:id="@+id/tvSinger"
+        android:id="@+id/tvArtist"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingBottom="10dp"
+        android:ellipsize="end"
         android:paddingLeft="10dp"
-        android:paddingRight="10dp"
         android:paddingTop="5dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:singleLine="true"
         android:textColor="@color/light"
         android:textSize="15sp"/>
 </LinearLayout>

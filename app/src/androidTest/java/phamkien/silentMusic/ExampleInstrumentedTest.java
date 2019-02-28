@@ -1,4 +1,4 @@
-package phamkien.login;
+package phamkien.silentMusic;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

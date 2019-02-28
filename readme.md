@@ -16,12 +16,13 @@ Include logo/demo screenshot etc.
 - [Android Studio](https://developer.android.com/studio/)
 
 ## Features
-What makes your project stand out?
-- [x] something done
-- [ ] thing's not done
+- [x] list .mp3 files in device
+- [ ] play music
+- [ ] display music's art
+- [ ] sort songs by name, album, artist,...
 
 ### Bugs
-What are bitting your project
+- Cannot play music
 
 ## Installation
 - Clone this project
@@ -32,6 +33,4 @@ What are bitting your project
 See in app/build.gradle
 
 ## License
-A short snippet describing the license (MIT, Apache etc)
-
 MIT © [Phạm Trung Kiên]()
