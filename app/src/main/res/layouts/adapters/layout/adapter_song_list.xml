@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/elemPadding">
+
+    <ImageView
+        android:id="@+id/ivSongImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"/>
+
+    <TextView
+        android:id="@+id/tvSongName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ivSongImage"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="@color/light"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvSongArtists"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSongName"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/ivSongImage"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="@color/light"/>
+
+    <TextView
+        android:id="@+id/tvLike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:drawableTop="@drawable/ic_favorite"
+        android:drawablePadding="5dp"
+        android:textAlignment="center"
+        android:textColor="@color/light"/>
+</RelativeLayout>
