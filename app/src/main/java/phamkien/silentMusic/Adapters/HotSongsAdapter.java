@@ -20,7 +20,6 @@ import phamkien.silentMusic.R;
 
 public class HotSongsAdapter extends RecyclerView.Adapter<HotSongsAdapter.ViewHolder> {
 
-    public static final String hotSong = "HOT_SONG";
     private ArrayList<SongModel> hotSongs;
     private Context context;
 
@@ -52,7 +51,7 @@ public class HotSongsAdapter extends RecyclerView.Adapter<HotSongsAdapter.ViewHo
 
                 context.startActivity(
                     new Intent(context, PlayerActivity.class)
-                        .putExtra(HotSongsAdapter.hotSong, song)
+                        .putExtra(context.getResources().getString(R.string.song), song)
                 );
 
                 AppCompatActivity activity = (AppCompatActivity) context;

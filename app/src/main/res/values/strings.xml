@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">Silent Music</string>
+    <string name="search_hint">Find a song</string>
+    <string name="search_empty">No search results</string>
+    <string name="song">SONG</string>
+    <string name="songs">SONGS</string>
     <string-array name="menu">
         <item>Home</item>
         <item>Search</item>

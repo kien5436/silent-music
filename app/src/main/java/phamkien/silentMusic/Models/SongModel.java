@@ -21,6 +21,7 @@ public class SongModel implements Parcelable {
             return new SongModel[size];
         }
     };
+
     @SerializedName("song_id")
     @Expose
     private String songId;

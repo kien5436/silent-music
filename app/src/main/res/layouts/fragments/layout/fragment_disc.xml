@@ -4,6 +4,32 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
+    <TextView
+        android:id="@+id/tvSongName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tvSongArtists"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:ellipsize="end"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:textColor="@color/light"
+        android:textSize="@dimen/textMainSize"/>
+
+    <TextView
+        android:id="@+id/tvSongArtists"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/civDisc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:ellipsize="end"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:textColor="@color/light"
+        android:textSize="15sp"/>
+
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/civDisc"
         android:layout_width="350dp"

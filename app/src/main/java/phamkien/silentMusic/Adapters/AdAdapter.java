@@ -27,7 +27,6 @@ import retrofit2.Response;
 
 public class AdAdapter extends PagerAdapter {
 
-    public static String adSong = "AD_SONG";
     private Context context;
     private ArrayList<AdModel> adList;
 
@@ -45,7 +44,7 @@ public class AdAdapter extends PagerAdapter {
      */
 
     @Override
-    public Object instantiateItem(ViewGroup container, final int position) {
+    public Object instantiateItem(final ViewGroup container, final int position) {
 
         View view = LayoutInflater.from(context).inflate(R.layout.adapter_ad, null);
 
@@ -78,7 +77,7 @@ public class AdAdapter extends PagerAdapter {
 
                             context.startActivity(
                                 new Intent(context, PlayerActivity.class)
-                                    .putExtra(AdAdapter.adSong, song)
+                                    .putExtra(context.getResources().getString(R.string.song), song)
                             );
 
                             AppCompatActivity activity = (AppCompatActivity) context;

@@ -51,7 +51,7 @@ public class PlaylistsAdapter extends RecyclerView.Adapter<PlaylistsAdapter.View
 
                 context.startActivity(
                     new Intent(context, SongListActivity.class)
-                        .putExtra(PlaylistsAdapter.sPlaylist, (Serializable) playlist)
+                        .putExtra(PlaylistsAdapter.sPlaylist, playlist)
                 );
 
                 AppCompatActivity activity = (AppCompatActivity) context;

@@ -9,14 +9,14 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import phamkien.silentMusic.Activities.PlayerActivity;
-import phamkien.silentMusic.Adapters.PlaylistInPlayerAdapter;
+import phamkien.silentMusic.Adapters.PlaylisAdapter;
 import phamkien.silentMusic.R;
 
 public class PlaylistInPlayerFragment extends Fragment {
 
     private View view;
     private RecyclerView rvPlaylist;
-    private PlaylistInPlayerAdapter playlistInPlayerAdapter;
+    private PlaylisAdapter playlistAdapter;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -27,8 +27,8 @@ public class PlaylistInPlayerFragment extends Fragment {
         if (PlayerActivity.songList.size() > 0) {
 
             rvPlaylist.setLayoutManager(new LinearLayoutManager(getContext()));
-            playlistInPlayerAdapter = new PlaylistInPlayerAdapter(getContext(), PlayerActivity.songList);
-            rvPlaylist.setAdapter(playlistInPlayerAdapter);
+            playlistAdapter = new PlaylisAdapter(getContext(), PlayerActivity.songList);
+            rvPlaylist.setAdapter(playlistAdapter);
         }
 
         return view;
